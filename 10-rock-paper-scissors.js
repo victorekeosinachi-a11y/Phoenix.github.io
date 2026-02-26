@@ -68,8 +68,8 @@ let scores =
 
     document.querySelector('.js-moves').innerHTML = `You 
 
-    <img src ="${playerMove.toLowerCase()}-emoji.png" class="move-icon"> 
-    <img src ="${computerMove.toLowerCase()}-emoji.png" class="move-icon">Computer`;
+    <img src ="${playerMove.toLowerCase()}rock-emoji.png" class="move-icon"> 
+    <img src ="${computerMove.toLowerCase()}paper-emoji.png" class="move-icon">Computer`;
     }
 
       function updateScoreElement() {
@@ -99,3 +99,4 @@ let scores =
 
 
     }
+
