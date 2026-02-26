@@ -68,8 +68,8 @@ let scores =
 
     document.querySelector('.js-moves').innerHTML = `You 
 
-    <img src ="javascript-course/${playerMove.toLowerCase()}-emoji.png" class="move-icon"> 
-    <img src ="javascript-course/${computerMove.toLowerCase()}-emoji.png" class="move-icon">Computer`;
+    <img src ="${playerMove.toLowerCase()}-emoji.png" class="move-icon"> 
+    <img src ="${computerMove.toLowerCase()}-emoji.png" class="move-icon">Computer`;
     }
 
       function updateScoreElement() {
@@ -95,6 +95,7 @@ let scores =
           computerMove = 'Scissors';
         }
         return computerMove;
+
 
 
     }
